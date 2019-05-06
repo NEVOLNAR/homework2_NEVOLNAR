@@ -8,8 +8,6 @@ public class LM {
        int ia=124;
        System.out.println(lmFac(i,ia));
 
-
-
    }
    //ex1
        public static int lmFac(int i, int ia){

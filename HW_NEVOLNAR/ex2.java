@@ -2,21 +2,20 @@ package HW_NEVOLNAR;
 
 public class ex2 {
 
-    public static void main(String[]args){
+    public static void main(String[] args) {
         //ex2
-        int pi=122;
-        int z=0;
-        int z1=0;
-        int z10=10;
-        System.out.println(z);
+        int pi = 122;
+        int z = 0;
+        int zi = 10;
+        int zz=0;
+        while (pi > zz) {
+            z = z + pi % zi;
+            pi = pi / zi;
 
-            while(pi!=z1){
-                z+=pi%z10;
-                pi/=z10;
-
-            }
 
         }
+        System.out.println(z);
+    }
 }
 
 
