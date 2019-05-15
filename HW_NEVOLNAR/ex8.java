@@ -1,6 +1,6 @@
 package HW_NEVOLNAR;
 
-public class ex8 {
+/*public class ex8 {
     public int [][]a=new int[8][8];
     int az=0;
     int ao=1;
@@ -36,22 +36,27 @@ public class ex8 {
             }
             else{
                 if(a==1){
-                    return -1;
-                    
+                    return 0;
+
                 }
+                else{
+                    return-1;
+                }
+                public int getMatrix(){
+                    return a;
+                }
+
             }
 
         }
     }
 
 
-
-
-
-
-
     public static void main(String[]args){
+        ex8 chessBoard=new ex8 ();
+        chessBoard.printBoard();
 
 
     }
 }
+*/
